@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/font-icon/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="/favicon/favicon-16x16.png" type="image/x-icon">
+    <title>HTH Computer</title>
+</head>
+<body>
+    <header id="header">
+        <!-- tên shop -->
+        <div class="title">
+            <h1 class="title-name"> <a href="#">HTH</a></h1>
+            <p class="title-content">computer</p>      
+        </div>
+
+        <!-- thanh tìm kiếm -->
+
+        <div class="search">
+           <input type="text" class="search-input" placeholder="Nhập linh kiện cần tìm"> <i class="search-icon ti-search"></i>
+           <button class="shopping"> <i class="shop-icon ti-shopping-cart"></i> </button>
+        </div>
+
+        <!-- nút giỏ sản phẩm -->
+
+        <div class="cart-shopping"> 
+            <h3 class="cart-shopping-heading"> Có 0 sản phẩm trong giỏ hàng</h3>
+            <p class="cart-shopping-money"> Tổng tiền hàng: </p>
+            <button class="cart-shopping-pay"> Thanh Toán Ngay </button>
+        </div>
+
+        <!-- hotline -->
+
+        <div class="hotline">
+            <p class="hotline-icon"><i class="headphone-icon ti-headphone-alt"></i></p>
+            <p class="hotline-content">Hotline</p>
+            <p class="hotline-number">0382085281</p>
+        </div>
+
+        <!-- User -->
+
+        <div class="user">
+
+            <i class=" user-icon ti-user"></i>
+            <span class ="user-dangky"><a href="/HTML/DangKy.html" class="user-link-dn">Đăng Ký</a></span>
+            <span class="user-dangnhap"><a href="" class="user-link-dk">Đăng nhập</a></span>
+        </div>
+
+    </header>
+
+
+    <!-- Navbar(menu)-->
+    <nav id="navbar">
+        <ul class="navbar-list">
+            <li>
+                <a href="/HTML/index.html" class="navbar-list-item">
+                    <i class="icon ti-home"></i>Trang Chủ 
+                </a>
+            </li>
+
+            <li>
+                <a href="/HTML/SanPham.html" class="navbar-list-item">
+                    <i class="icon ti-desktop"></i>PC-Linh Kiện <i class="icon-dropdown ti-angle-down"></i>
+                </a>
+                <ul id="sub-nav">
+                    <li class="sub-nav-col ">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Case máy tính</a>
+                        <ul>
+                            <li class="sub-nav-content">Case với giá dưới 1 triệu</li><br>
+                            <li class="sub-nav-content">Case với giá trên 1 triệu</li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">CPU-Bộ xử lý</a>
+                        <ul>
+                            <li class="sub-nav-content">CPU intel Core i3</li><br>
+                            <li class="sub-nav-content">CPU intel Core i5</li><br>
+                            <li class="sub-nav-content">CPU intel Core i7</li><br>
+                            <li class="sub-nav-content">CPU intel Core i9</li><br>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Mainboard</a>
+                        <ul>
+                            <li class="sub-nav-content">ASRock</li><br>
+                            <li class="sub-nav-content">MSI</li><br>
+                            <li class="sub-nav-content">Asus</li><br>
+                            <li class="sub-nav-content">Gigabyte</li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Ram</a>
+                        <ul>
+                            <li class="sub-nav-content">DDR3</li><br>
+                            <li class="sub-nav-content">DDR4</li><br>
+                            <li class="sub-nav-content">DDR5</li><br>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                       <a href="/HTML/SanPham.html" class="sub-nav-heading">Ổ cứng</a> 
+                        <ul>
+                            <li class="sub-nav-content">HDD</li><br>
+                            <li class="sub-nav-content">SSD</li>
+                        </ul>
+                    </li>
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Card đồ họa (GPU)</a>
+                        <ul>
+                            <li class="sub-nav-content"> RTX 2060</li><br>
+                            <li class="sub-nav-content"> RTX 3060</li><br>
+                            <li class="sub-nav-content"> RTX 4080</li><br>
+                            <li class="sub-nav-content"> RTX 4090</li><br>
+                            <li class="sub-nav-content"> RTX 6500</li><br>
+                         
+                        </ul>
+                    </li>
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Nguồn điện (Power)</a>
+                        <ul>
+                            <li class="sub-nav-content">450W</li><br>
+                            <li class="sub-nav-content">650W</li><br>
+                            <li class="sub-nav-content">750W</li><br>
+                            <li class="sub-nav-content">1000W</li><br>
+                            <li class="sub-nav-content">2050W</li><br>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <a href="/HTML/Gioithieu.html" class="navbar-list-item">
+                    <i class="icon ti-info-alt"></i> Giới Thiệu
+                </a>
+            </li>
+
+            <li>
+                <a href="/HTML/TinCongNghe.html" class="navbar-list-item">`
+                    <i class="icon ti-agenda" ></i> Tin Công Nghệ 
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item">
+                    <i class="icon ti-settings"></i> Dịch vụ <i class="icon-dropdown ti-angle-down"></i>
+                </a>
+                <div class="sub-nav-service">
+                    <div class="subnav-service-heading">
+                        <h2 class="service-heading" > Dịch Vụ Khách Hàng Tại Vũng Tàu</h2>
+                    </div>
+                    <div class="service-content">
+                        <img class="service-img" src="/img/dichvu/thaolap.jpg" alt="">
+                        <a href="/HTML/ThaoLap.html" class="service-des">Dịch vụ tháo lắp linh kiện cho máy tính</a>
+                    </div>
+                    <div class="service-content">
+                        <img class="service-img" src="/img/dichvu/suachua.jpg" alt="">
+                        <a href="/HTML/SuaChua.html" class="service-des">Dịch vụ sửa chữa và thay thế linh kiện</a>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </li>
+
+            <li>
+                <a href="/HTML/Lienhe.html" class="navbar-list-item">
+                    <i class=" icon ti-mobile"></i> Liên Hệ 
+                </a>
+            </li>
+
+        </ul>
+        <div class="clear"></div>
+    </nav>
+
+    <main id="main-content">
+        <div class="frame-section1">
+
+            <div class="banner-infomation">
+                <h3 class="banner-heading"> HTH Computer</h3>
+                <h4 class="banner-sale"> Spring Sale </h4>
+
+                <div class="banner-price"> 
+                    <p class="banner-content1">Giá chỉ từ</p>
+                    <p class="banner-content2"> 3.990.000đ</p>
+                </div>
+
+                <div class="banner-price"> 
+                    <p class="banner-content1">Khuyến mãi lên đến</p>
+                    <p class="banner-content2"> 6.500.000đ</p>
+                </div>
+
+            </div>
+
+            <div class="banner-product">
+                <img src="/img/Linh kiện trang chủ/ảnh gộp/z5031976771325_fc394c5d7545f50c637d5793775ba972.jpg" alt="" class="banner-product-img">
+                <img src="/img/Linh kiện trang chủ/ảnh gộp/z5031981308052_0a5d0934480de9d0f21d00f915dd9b1c.jpg" alt="" class="banner-product-img">
+            </div>
+        </div>
+
+        <div class="frame-section2">
+
+            <!-- sản phẩm mới -->
+
+            <div class="new-product">
+                <h2 class="new-heading"> Sản phẩm mới </h2>
+                <div class="new-product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp new/Mainboard ASRock Z790 PG Lightning Wifi D5.jpg" alt="" class="item-image">
+                            <p class="item-name">Mainboard ASRock Z790 PG Lightning Wifi D5</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/MuaHangMain1.html" class="item-buy">Mua</a>
+                        </div>
+                    </a>
+                   
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp new/Card Colorful GeForce RTX 4090 NB EX-V.jpg" alt="" class="item-image">
+                            <p class="item-name">Card Colorful Geforce RTX 4090 NB EX-V</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+                    </a>
+                 
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp new/Nguồn SilverStone Strider 1000W SST-ST1000-PTS 80 Plus Platinum.png" alt="" class="item-image">
+                            <p class="item-name">Nguồn SilverStone Strider 1000W Plus Platinum</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/MuaHangPower1.html" class="item-buy">Mua</a>
+    
+                        </div>
+                    </a>
+                 
+                </div>
+            </div>
+
+            <!-- sản phẩm nổi bật -->
+
+            <div class="outstanding-product">
+                <h2 class="outstanding-heading"> Sản phẩm nổi bật </h2>
+                <div class="outstanding-product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/Vỏ case DeepCool CC560 4F.webp" alt="" class="item-image">
+                            <p class="item-name">Vỏ case DeepCool CC560 4F</p>
+                            <p class="item-price"> 890.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+                    </a>
+                 
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/CPU Intel Core I7-12700K.png" alt="" class="item-image">
+                            <p class="item-name">CPU Intel Core I7-12700k</p>
+                            <p class="item-price"> 5.490.000đ</p>
+                            <a href="/HTML/MuaHang.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/Ram Adata Lancer RGB 32GB DDR5 5200Mhz.png" alt="" class="item-image">
+                            <p class="item-name">Ram Adata Lancer RGB 32GB DDR5 5200Mhz</p>
+                            <p class="item-price"> 2.800.000đ</p>
+                            <a href="/HTML/MuaHangRam6.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/Card INNO3D GEFORCE RTX 3060 TWIN X2 12GB.jpg" alt="" class="item-image">
+                            <p class="item-name">Card INNO3D Geforce RTX 3060 Twin X2 12GB</p>
+                            <p class="item-price"> 7.490.000đ</p>
+                            <a href="/HTML/MuaHangVGA4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/z5032419366182_4943043ebb79d5c2c381242577e30a79.jpg" alt="" class="item-image">
+                            <p class="item-name">Card Asus Dual Geforce RTX 4060 8GB DDDR6</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/MuaHangVGA2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/Mainboard Asus TUF Gaming B760M-PLUS Wifi DDR5.jpg" alt="" class="item-image">
+                            <p class="item-name">Mainboard Asus TUF Gaming B670M-Plus Wifi DDR5</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/Linh kiện trang chủ/sp nb/RAM APACER PANTHER (DDR5) 16GB.jpg" alt="" class="item-image">
+                            <p class="item-name">Ram Apecer PanTher DDR5 16GB</p>
+                            <p class="item-price"> 1.390.000đ</p>
+                            <a href="/HTML/MuaHangRam2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Ram -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+
+            <div class="product">
+                <h2 class="product-heading"> Ram </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/ram/Adata-8GB.jpg" alt="" class="item-image">
+                            <p class="item-name">Ram Adata XPG Spectrix D41 RGB Grey 8GB(DDR4)</p>
+                            <p class="item-price"> 640.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>                        
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/ram/Apacer-16GB.jpg" alt="" class="item-image">
+                            <p class="item-name">Ram Apacer Panther 16GB (DDR5)</p>
+                            <p class="item-price"> 1.390.000đ</p>
+                            <a href="/HTML/MuaHangRam2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>                   
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/ram/Adata-16GB White.jpg" alt="" class="item-image">
+                            <p class="item-name">Ram Adata XPG D50 RGB 16GB-White (DDR4)</p>
+                            <p class="item-price"> 1.190.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>                    
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/ram/PNY-16GB.jpg" alt="" class="item-image">
+                            <p class="item-name">Ram PNY XLR8 Gaming 16GB (DDr4)</p>
+                            <p class="item-price"> 990.000đ</p>
+                            <a href="/HTML/MuaHangRam4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Rom -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> HDD </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/HDD/Blue-1TB-3.5_compressed-768x768.jpg" alt="" class="item-image">
+                            <p class="item-name">HDD PC Western Digital Blue 1TB 3.5" 7200 rpm 64MB Cache</p>
+                            <p class="item-price">1.050.000đ</p>
+                            <a href="/HTML/MuaHangHDD1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/HDD/1TB-3.5inch_compressed-768x768.jpg" alt="" class="item-image">
+                            <p class="item-name">HDD  PC Seagate BarraCuda 1TB 3.5" 7200 rpm 64MB Cache</p>
+                            <p class="item-price"> 1.050.000đ</p>
+                            <a href="/HTML/MuaHangHDD2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/HDD/Seagate-Barracuda-2TB-HDD_compressed-768x768.jpg" alt="" class="item-image">
+                            <p class="item-name">HDD PC Western Digital Blue 2TB 3.5" 5400 rpm 256MB Cache</p>
+                            <p class="item-price"> 1.590.000đ</p>
+                            <a href="/HTML/MuaHangHDD3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/HDD/Blue-2TB_compressed.jpg" alt="" class="item-image">
+                            <p class="item-name">HDD PC Seagate BarraCuda 2TB 3.5" 7200 rpm 256MB Cache</p>
+                            <p class="item-price"> 1.590.000đ</p>
+                            <a href="/HTML/MuaHangHDD4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Rom -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> SDD </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/SSD/MP33.jpg" alt="" class="item-image">
+                            <p class="item-name">SSD TeamGroup MP33 256GB M.2 PCle Gen3 X4</p>
+                            <p class="item-price"> 450.000đ</p>
+                            <a href="/HTML/MuaHangSSD1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/SSD/ssd-kingston-256.jpg" alt="" class="item-image">
+                            <p class="item-name">SSD Kingston NV2 250GB NVMe PCle Gen4 X4 M.2 2280</p>
+                            <p class="item-price"> 690.000đ</p>
+                            <a href="/HTML/MuaHangSSD2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/SSD/MP33.jpg" alt="" class="item-image">
+                            <p class="item-name">SSD TeamGroup MP33 512GB M.2 PCle Gen3 X4</p>
+                            <p class="item-price"> 690.000đ</p>
+                            <a href="/HTML/MuaHangSSD3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/SSD/ssd-kingston-500.jpg" alt="" class="item-image">
+                            <p class="item-name">SSD Kingston NV2 500GB NVMe PCle Gen4 X4 M.2 2280/p>
+                            <p class="item-price"> 1.490.000đ</p>
+                            <a href="/HTML/MuaHangSSD4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card-->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> Card </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/card/RTX-2060 Super Dual.jpg" alt="" class="item-image">
+                            <p class="item-name">Card VGA Palit GeForce RTX 2060 Super Dual 8GB GDDR6</p>
+                            <p class="item-price"> 6.350.000đ</p>
+                            <a href="/HTML/MuaHangVGA1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/card/RTX-4090 White.jpg" alt="" class="item-image">
+                            <p class="item-name">Card Asus Dual GeForce RTX 4060 White OC Edition 8GB GDDR6</p>
+                            <p class="item-price"> 8.590.000đ</p>
+                            <a href="/HTML/MuaHangVGA2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/card/RTX-3060 Ti Ex-Black.jpg" alt="" class="item-image">
+                            <p class="item-name">Card GALAX RTX 3060 Ti 8GB Ex Black</p>
+                            <p class="item-price"> 9.200.000đ</p>
+                            <a href="/HTML/MuaHangVGA3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/card/3060-Twin.jpg" alt="" class="item-image">
+                            <p class="item-name">Card INNO3D GeForce RTX 3060 TWIn X2 12GB</p>
+                            <p class="item-price"> 7.490.000đ</p>
+                            <a href="/HTML/MuaHangVGA4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CPU  -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> CPU </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/cpu/i9-13900k.jpg" alt="" class="item-image">
+                            <p class="item-name">CPU Intel Core I9 13900K </p>
+                            <p class="item-price"> 9.990.000đ</p>
+                            <a href="/HTML/MuaHangCPU1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/cpu/ryzen-5-4600g.jpg" alt="" class="item-image">
+                            <p class="item-name">CPU AMD Ryzen 5 4600G</p>
+                            <p class="item-price"> 2.790.000đ</p>
+                            <a href="/HTML/MuaHangCPU2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/cpu/i7-12700k.png" alt="" class="item-image">
+                            <p class="item-name">CPU Intel Core I7 13700K</p>
+                            <p class="item-price"> 6.590.000đ</p>
+                            <a href="/HTML/MuaHangCPU3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/cpu/i3-13100.jpg" alt="" class="item-image">
+                            <p class="item-name">CPU Intel Core I3 13100</p>
+                            <p class="item-price"> 3.490.000đ</p>
+                            <a href="/HTML/MuaHangCPU4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Case -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> Case </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/case máy tính/Elite-white.jpg" alt="" class="item-image">
+                            <p class="item-name">Vỏ case NZXT H5 Elite White</p>
+                            <p class="item-price"> 1.749.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/case máy tính/3F-Black.jpg" alt="" class="item-image">
+                            <p class="item-name"> Vỏ case Xigmatek Phantom 3F-Black</p>
+                            <p class="item-price"> 790.000đ</p>
+                            <a href="/HTML/MuaHangCase2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/case máy tính/Snow white.jfif" alt="" class="item-image">
+                            <p class="item-name">Vỏ case Cesar Snow White</p>
+                            <p class="item-price"> 630.000đ</p>
+                            <a href="/HTML/SanPham.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/case máy tính/White-ATX.jpg" alt="" class="item-image">
+                            <p class="item-name">Vỏ case Hyte Y60 Snow White-ATX</p>
+                            <p class="item-price"> 5.490.000đ</p>
+                            <a href="/HTML/MuaHangCase4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+           
+        <!-- mainboard -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> Mainboard </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/main board/lightning.jpg" alt="" class="item-image">
+                            <p class="item-name">Mainboard ASRock Z790 PG Lightning Wifi D5</p>
+                            <p class="item-price"> 5.900.000đ</p>
+                            <a href="/HTML/MuaHangMain1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/main board/H610M.jpeg" alt="" class="item-image">
+                            <p class="item-name">Mainboard MSI Pro H610M-E DDR4-NK</p>
+                            <p class="item-price"> 1.980.000đ</p>
+                            <a href="/HTML/MuaHangMain2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/main board/B760M.jpg" alt="" class="item-image">
+                            <p class="item-name">Mainboard Asus TUF Gaming B760M-E DDR4</p>
+                            <p class="item-price"> 3.470.000đ</p>
+                            <a href="/HTML/MuaHangMain3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/main board/B450M.jpg" alt="" class="item-image">
+                            <p class="item-name">Mainboard MSI B450M Pro VDH MAX</p>
+                            <p class="item-price"> 1.850.000đ</p>
+                            <a href="/HTML/MuaHangMain4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Nguồn -->
+
+        <div class="frame-section2">
+            <!-- Show product -->
+            <div class="product">
+                <h2 class="product-heading"> Power  </h2>
+                <div class="product-list">
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/power/Silver-1000W.png" alt="" class="item-image">
+                            <p class="item-name">Nguồn SilverStone Strider 1000W SST-ST1000-PTS 80 Plus Platinum</p>
+                            <p class="item-price"> 3.800.000đ</p>
+                            <a href="/HTML/MuaHangPower1.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/power/Antec Atom 650W.png" alt="" class="item-image">
+                            <p class="item-name">Nguồn Antec Atom B650 EC-80 Plus Bronze 650W</p>
+                            <p class="item-price"> 1.090.000đ</p>
+                            <a href="/HTML/MuaHangPower2.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/power/Antec-750W.png" alt="" class="item-image">
+                            <p class="item-name">Nguồn Antec B750-7502 (80Plus Bronze)</p>
+                            <p class="item-price"> 1.390.000đ</p>
+                            <a href="/HTML/MuaHangPower3.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                    <a href="/HTML/SanPham.html" class="link-product">
+                        <div class="product-list-item">
+                            <img src="/img/LINH KIỆN PC/power/Antec Antom-750W.jpg" alt="" class="item-image">
+                            <p class="item-name">Nguồn Antec AtomG750-750W 80 Plus Gold</p>
+                            <p class="item-price"> 1.890.000đ</p>
+                            <a href="/HTML/MuaHangPower4.html" class="item-buy">Mua</a>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+
+        <div class="div-left">
+            <div class="div-left-support">
+                <h3 class="div-left-heading"> Liên hệ để nhận được hỗ trợ và tư vấn</h3>
+                <p class="div-left-content">Gọi mua hàng 0382 089 283 (7h - 22hh)</p>
+                <p class="div-left-content">Gọi khiếu nại 0322 134 653 (8h - 21h30)</p>
+                <p class="div-left-content">Gọi bảo hành 0382 089 283 (8h - 21h)</p><br>
+            </div>
+
+            <div class="div-left-methodPay">
+                <h3 class="div-left-heading">Phương thức thanh toán</h3>
+                <p class="div-left-content">Zalopay, Momo, ATM Banking</p><br>
+            </div>
+            <div class="icon-social">
+                <a href="https://www.facebook.com/trucyface">
+                    <img src="/img/social/Facebook.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.instagram.com/Hoannn0gg?fbclid=IwAR2whdIRwEao0epbiYP58On7id-apcwitCQb8xeTZoaschC2kWNV5SYBDgY">
+                    <img src="/img/social/instagram.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.tiktok.com/@thanhh_truc20?fbclid=IwAR3yfQ9Z17nwQJLkqAHnZr79dEtu5TnGgs0X7Oef_orArkMPfpvDrZUs4t4">
+                    <img src="/img/social/titok.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.youtube.com/Thanh%20Truc">
+                    <img src="/img/social/youtube.jpg" alt="" class="img-social">
+                </a>
+            </div>
+        </div>
+
+       
+
+        <div class="div-bottom">
+            <h3 class="div-bottom-heading">Thông tin và chính sách</h3>
+            <p class="div-bottom-content">Mua hàng và thanh toán online</p>
+            <p class="div-bottom-content">Mua hàng trả góp online</p>
+            <p class="div-bottom-content">Chính sách giao hàng</p>
+            <p class="div-bottom-content">Tra thông tin bảo hành</p>
+            <p class="div-bottom-content">Thông tin hóa đơn mua hàng</p>
+        </div>
+
+        <div class="div-right">
+            <h3 class="div-right-heading">Dịch vụ và thông tin khác</h3>
+            <p class="div-right-content">Ưu đãi thanh toán</p>
+            <p class="div-right-content">Quy chế hoạt động </p>
+            <p class="div-right-content">Chính sách bảo hành</p>
+            <p class="div-right-content">Liên hệ hợp tác kinh doanh</p>
+            <p class="div-right-content">Tuyển dụng</p>
+            <p class="div-right-content">Dịch vụ bảo hành linh kiện</p>
+        </div>
+
+    </footer>
+
+    <div class="modal-dangnhap">
+        <div class="modal-dangnhap-container">
+            <h3 class="modal-dangnhap-heading">Đăng Nhập</h3>
+            <table>
+                <tr>
+                    <th class="heading">Tên đăng nhập</th>
+                    <td class="input"> <input type="text" class="input-data"></td>
+                </tr>
+                <tr>
+                    <th class="heading">Mật khẩu</th>
+                    <td class="input"> <input type="password" class="input-data"></td>
+                </tr>
+            </table>
+            <button class="btn-dangnhap"> Đăng nhập </button>
+            <button class="btn-reset"> Reset</button>
+        </div>
+    </div>
+    <script src="/Javascript/main.js"></script>
+</body>
+</html>

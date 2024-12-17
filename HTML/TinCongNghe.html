@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/tincongnghe.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/font-icon/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="/favicon/favicon-16x16.png" type="image/x-icon">
+    <title>HTH Computer</title>
+</head>
+<body>
+    <header id="header">
+        <!-- tên shop -->
+        <div class="title">
+            <h1 class="title-name"> <a href="#">HTH</a></h1>
+            <p class="title-content">computer</p>      
+        </div>
+
+        <!-- thanh tìm kiếm -->
+
+        <div class="search">
+           <input type="text" class="search-input" placeholder="Nhập linh kiện cần tìm"> <i class="search-icon ti-search"></i>
+           <button class="shopping"> <i class="shop-icon ti-shopping-cart"></i> </button>
+        </div>
+
+        <!-- nút giỏ sản phẩm -->
+
+        <div class="cart-shopping"> 
+            <h3 class="cart-shopping-heading"> Có 0 sản phẩm trong giỏ hàng</h3>
+            <p class="cart-shopping-money"> Tổng tiền hàng: </p>
+            <button class="cart-shopping-pay"> Thanh Toán Ngay </button>
+        </div>
+
+        <!-- hotline -->
+
+        <div class="hotline">
+            <p class="hotline-icon"><i class="headphone-icon ti-headphone-alt"></i></p>
+            <p class="hotline-content">Hotline</p>
+            <p class="hotline-number">0382085281</p>
+        </div>
+
+        <!-- User -->
+
+        <div class="user">
+
+            <i class=" user-icon ti-user"></i>
+            <span class ="user-dangky"><a href="/HTML/DangKy.html" class="user-link-dn">Đăng Ký</a></span>
+            <span class="user-dangnhap"><a href="" class="user-link-dk">Đăng nhập</a></span>
+        </div>
+
+    </header>
+
+
+    <!-- Navbar(menu)-->
+    <nav id="navbar">
+        <ul class="navbar-list">
+            <li>
+                <a href="/HTML/index.html" class="navbar-list-item">
+                    <i class="icon ti-home"></i>Trang Chủ 
+                </a>
+            </li>
+
+            <li>
+                <a href="/HTML/SanPham.html" class="navbar-list-item">
+                    <i class="icon ti-desktop"></i>PC-Linh Kiện <i class="icon-dropdown ti-angle-down"></i>
+                </a>
+                <ul id="sub-nav">
+                    <li class="sub-nav-col ">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Case máy tính</a>
+                        <ul>
+                            <li class="sub-nav-content">Case với giá dưới 1 triệu</li><br>
+                            <li class="sub-nav-content">Case với giá trên 1 triệu</li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">CPU-Bộ xử lý</a>
+                        <ul>
+                            <li class="sub-nav-content">CPU intel Core i3</li><br>
+                            <li class="sub-nav-content">CPU intel Core i5</li><br>
+                            <li class="sub-nav-content">CPU intel Core i7</li><br>
+                            <li class="sub-nav-content">CPU intel Core i9</li><br>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Mainboard</a>
+                        <ul>
+                            <li class="sub-nav-content">ASRock</li><br>
+                            <li class="sub-nav-content">MSI</li><br>
+                            <li class="sub-nav-content">Asus</li><br>
+                            <li class="sub-nav-content">Gigabyte</li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Ram</a>
+                        <ul>
+                            <li class="sub-nav-content">DDR3</li><br>
+                            <li class="sub-nav-content">DDR4</li><br>
+                            <li class="sub-nav-content">DDR5</li><br>
+                        </ul>
+                    </li>
+
+                    <li class="sub-nav-col">
+                       <a href="/HTML/SanPham.html" class="sub-nav-heading">Ổ cứng</a> 
+                        <ul>
+                            <li class="sub-nav-content">HDD</li><br>
+                            <li class="sub-nav-content">SSD</li>
+                        </ul>
+                    </li>
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Card đồ họa (GPU)</a>
+                        <ul>
+                            <li class="sub-nav-content"> RTX 2060</li><br>
+                            <li class="sub-nav-content"> RTX 3060</li><br>
+                            <li class="sub-nav-content"> RTX 4080</li><br>
+                            <li class="sub-nav-content"> RTX 4090</li><br>
+                            <li class="sub-nav-content"> RTX 6500</li><br>
+                         
+                        </ul>
+                    </li>
+                    <li class="sub-nav-col">
+                        <a href="/HTML/SanPham.html" class="sub-nav-heading">Nguồn điện (Power)</a>
+                        <ul>
+                            <li class="sub-nav-content">450W</li><br>
+                            <li class="sub-nav-content">650W</li><br>
+                            <li class="sub-nav-content">750W</li><br>
+                            <li class="sub-nav-content">1000W</li><br>
+                            <li class="sub-nav-content">2050W</li><br>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <a href="/HTML/Gioithieu.html" class="navbar-list-item">
+                    <i class="icon ti-info-alt"></i> Giới Thiệu
+                </a>
+            </li>
+
+            <li>
+                <a href="/HTML/TinCongNghe.html" class="navbar-list-item">`
+                    <i class="icon ti-agenda" ></i> Tin Công Nghệ 
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item">
+                    <i class="icon ti-settings"></i> Dịch vụ <i class="icon-dropdown ti-angle-down"></i>
+                </a>
+                <div class="sub-nav-service">
+                    <div class="subnav-service-heading">
+                        <h2 class="service-heading" > Dịch Vụ Khách Hàng Tại Vũng Tàu</h2>
+                    </div>
+                    <div class="service-content">
+                        <img class="service-img" src="/img/dichvu/thaolap.jpg" alt="">
+                        <a href="/HTML/ThaoLap.html" class="service-des">Dịch vụ tháo lắp linh kiện cho máy tính</a>
+                    </div>
+                    <div class="service-content">
+                        <img class="service-img" src="/img/dichvu/suachua.jpg" alt="">
+                        <a href="/HTML/SuaChua.html" class="service-des">Dịch vụ sửa chữa và thay thế linh kiện</a>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </li>
+
+            <li>
+                <a href="/HTML/Lienhe.html" class="navbar-list-item">
+                    <i class=" icon ti-mobile"></i> Liên Hệ 
+                </a>
+            </li>
+
+        </ul>
+        <div class="clear"></div>
+    </nav>
+
+    <main id="main-content">
+            <div id="tincongnghe">
+                <h1 class="News-title">TIN CÔNG NGHỆ MỚI</h1>
+
+                                         <!-- ảnh một  -->
+                <div class="News-info">
+                    <div class="frame-News-img">
+                        <a href="https://vnexpress.net/trung-quoc-huong-den-cot-moc-mot-ty-nguoi-dung-5g-4686582.html" class="frame-links">
+                            <img src="/img/tin công nghệ/TQ.jpg" alt="3gg" class="News-img">
+                        </a>
+                       
+                    </div>
+                    <div class="frame-News-content">
+                        <a href="https://vnexpress.net/trung-quoc-huong-den-cot-moc-mot-ty-nguoi-dung-5g-4686582.html" class="frame-links">
+                            <h3 class="News-heading">Trung Quốc hướng đến cột mốc 1 tỷ người dùng 5G</h3>
+                        <p class="News-content">Sau 4 năm triển khai,Trung Quốc hiện có 754 triệu người dùng kết nối 5G và sãn sàng cho cột mốc
+                        một tỷ người dùng vào 2025
+                        </p>
+                        </a>
+                        
+                    </div>
+                </div>
+         
+
+                <div class="News-info">
+
+                    <div class="frame-News-img">
+                        <a href="https://vnexpress.net/sam-altman-ghet-ten-goi-chatgpt-4686554.html" class="frame-links">
+                            <img src="/img/tin công nghệ/Sam-AltMan.png" alt="2gg" class="News-img">
+                        </a>
+                        
+                    </div>
+        
+                    <div class="frame-News-content">
+                        <a href="https://vnexpress.net/sam-altman-ghet-ten-goi-chatgpt-4686554.html" class="frame-links">
+                            <h3 class="News-heading">Sam Altman ghét tên gọi ChatGPT</h3>
+                            <p class="News-content">CEO Open AI Sam Altman cho biết ông không thích tên ChatGPT
+                             nhưng sẽ không thay đổi vì nó quá thông dụng</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="News-info">
+                    <div class="frame-News-img">
+                        <a href="https://itamloan.vn/blogs/news/mo-hop-macbook-pro-14-dung-chip-m3" class="frame-links">
+                            <img src="/img/tin công nghệ/MAcBook.jpg" alt="1gg" class="News-img">
+                        </a>
+                    </div>
+
+                    <div class="frame-News-content">
+                        <a href="https://itamloan.vn/blogs/news/mo-hop-macbook-pro-14-dung-chip-m3" class="frame-links">
+                            <h3 class="News-heading">Mở hộp MacBook Pro 14 dùng chip M3</h3>
+                            <p class="News-content">MacBook Pro 14 lần đầu có thêm tùy chọn chip dòng thường M3, với giá khỏi điểm rẻ hơn <br>
+                            chục triệu đồng so với thế hệ trước
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="News-info">
+                    <div class="frame-News-img">
+                        <a href="https://itamloan.vn/blogs/news/mo-hop-macbook-pro-14-dung-chip-m3" class="frame-links">
+                            <img src="/img/tin công nghệ/phadaogame.png" alt="1gg" class="News-img">
+                        </a>
+                        
+                    </div>
+
+                    <div class="frame-News-content">
+                        <a href="https://vnexpress.net/nguoi-dau-tien-pha-dao-game-xep-hinh-4696319.html?gidzl=ml_rTVCCudl3wF9pzXRcVChez7JXG-4jrRcbT-WLud_Tvg5rxHxYVelcyNAsIRLxXEAc8JO5oY4_zGRXUm" class="frame-links">
+                            <h3 class="News-heading">Người đầu tiên 'phá đảo' game xếp hình</h3>
+                            <p class="News-content">Blue Scuti, streamer 13 tuổi, trở thành người đầu tiên vượt qua toàn bộ màn chơi trong game Tetris trên hệ máy NES, còn được gọi là "Game xếp hình".
+                                Tuy nhiên, video về quá trình "phá đảo" game mới được đăng trên kênh YouTube của Scuti ngày 2/1.
+                            </p>
+                        </a>
+                    </div>
+              
+                </div>
+
+                <div class="News-info">
+                    <div class="frame-News-img">
+                        <a href="https://vnexpress.net/ios-17-3-beta-2-bien-iphone-thanh-cuc-gach-4696766.html?gidzl=HTPBMbMCJmf4mKnSK9PB3Kt6I5n7n4vRKfSPNqwIJGbQo1rTIvbD20p8JLeGpXeD0ymQ2JOaOp9XKuPC2W" class="frame-links">
+                            <img src="/img/tin công nghệ/IOS 17.3.png" alt="1gg" class="News-img">
+                        </a>
+                    </div>
+                    
+                    <div class="frame-News-content">
+                        <a href="https://vnexpress.net/ios-17-3-beta-2-bien-iphone-thanh-cuc-gach-4696766.html?gidzl=HTPBMbMCJmf4mKnSK9PB3Kt6I5n7n4vRKfSPNqwIJGbQo1rTIvbD20p8JLeGpXeD0ymQ2JOaOp9XKuPC2W" class="frame-links">
+                            <h3 class="News-heading">iOS 17.3 beta 2 biến iPhone thành 'cục gạch'</h3>
+                            <p class="News-content">Bản thử nghiệm iOS 17.3 beta 2 khiến nhiều iPhone lỗi không thể khởi động, buộc Apple phải rút lại chỉ sau ba tiếng triển khai
+                                Apple chưa đưa ra bình luận về sự cố. Nhưng chỉ ba tiếng sau khi triển khai ngày 3/1, iOS 17.3 beta 2 không còn có sẵn để tải xuống và cài đặt.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="News-info">
+                    <div class="frame-News-img">
+                        <a href="https://vnexpress.net/ai-se-giup-ai-cung-co-the-tro-thanh-lap-trinh-vien-4695811.html?gidzl=1Vzb5QVeSsu4w68Jel9tQGtfPXErfd8_4hWt4BpmSMqQvpCIkVjnR4pdOnNYh2PfG-CqHZQMBY1AeU9mRW" class="frame-links">
+                            <img src="/img/tin công nghệ/AI.jpg" alt="1gg" class="News-img">
+
+                        </a>
+                    </div>
+                    <div class="frame-News-content">
+                        <a href="https://vnexpress.net/ai-se-giup-ai-cung-co-the-tro-thanh-lap-trinh-vien-4695811.html?gidzl=1Vzb5QVeSsu4w68Jel9tQGtfPXErfd8_4hWt4BpmSMqQvpCIkVjnR4pdOnNYh2PfG-CqHZQMBY1AeU9mRW" class="frame-links">
+    
+                            <h3 class="News-heading">AI sẽ giúp ai cũng có thể trở thành lập trình viên</h3>
+                            <p class="News-content">Giám đốc AI của IBM cho rằng trí tuệ nhân tạo sẽ giúp người không có kỹ năng máy tính cũng có thể tự phát triển sản phẩm phần mềm.
+                                "Với sự phát triển của AI tạo sinh, trong tương lai, kỹ năng mềm quan trọng hơn kiến thức chuyên môn", ông nói với Fortune. "Kỹ năng đặt câu hỏi, sự sáng tạo và đổi mới sẽ cựu kỳ cần thiết"
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </main>
+
+    <footer id="footer">
+
+        <div class="div-left">
+            <div class="div-left-support">
+                <h3 class="div-left-heading"> Liên hệ để nhận được hỗ trợ và tư vấn</h3>
+                <p class="div-left-content">Gọi mua hàng 0382 089 283 (7h - 22hh)</p>
+                <p class="div-left-content">Gọi khiếu nại 0322 134 653 (8h - 21h30)</p>
+                <p class="div-left-content">Gọi bảo hành 0382 089 283 (8h - 21h)</p><br>
+            </div>
+
+            <div class="div-left-methodPay">
+                <h3 class="div-left-heading">Phương thức thanh toán</h3>
+                <p class="div-left-content">Zalopay, Momo, ATM Banking</p><br>
+            </div>
+            <div class="icon-social">
+                <a href="https://www.facebook.com/trucyface">
+                    <img src="/img/social/Facebook.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.instagram.com/Hoannn0gg?fbclid=IwAR2whdIRwEao0epbiYP58On7id-apcwitCQb8xeTZoaschC2kWNV5SYBDgY">
+                    <img src="/img/social/instagram.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.tiktok.com/@thanhh_truc20?fbclid=IwAR3yfQ9Z17nwQJLkqAHnZr79dEtu5TnGgs0X7Oef_orArkMPfpvDrZUs4t4">
+                    <img src="/img/social/titok.jpg" alt="" class="img-social">
+                </a>
+                <a href="https://www.youtube.com/Thanh%20Truc">
+                    <img src="/img/social/youtube.jpg" alt="" class="img-social">
+                </a>
+            </div>
+        </div>
+
+        <div class="div-bottom">
+            <h3 class="div-bottom-heading">Thông tin và chính sách</h3>
+            <p class="div-bottom-content">Mua hàng và thanh toán online</p>
+            <p class="div-bottom-content">Mua hàng trả góp online</p>
+            <p class="div-bottom-content">Chính sách giao hàng</p>
+            <p class="div-bottom-content">Tra thông tin bảo hành</p>
+            <p class="div-bottom-content">Thông tin hóa đơn mua hàng</p>
+        </div>
+
+        <div class="div-right">
+            <h3 class="div-right-heading">Dịch vụ và thông tin khác</h3>
+            <p class="div-right-content">Ưu đãi thanh toán</p>
+            <p class="div-right-content">Quy chế hoạt động </p>
+            <p class="div-right-content">Chính sách bảo hành</p>
+            <p class="div-right-content">Liên hệ hợp tác kinh doanh</p>
+            <p class="div-right-content">Tuyển dụng</p>
+            <p class="div-right-content">Dịch vụ bảo hành linh kiện</p>
+        </div>
+
+    </footer>
+</body>
+</html>

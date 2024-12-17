@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1200px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+#gioi-thieu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#gioi-thieu {
+    text-align: left;
+    padding: 20px;
+}
+
+#gioi-thieu h1 {
+    color: #fea628;
+    text-align: center;
+    font-size:32px;
+    padding: 18px;
+    margin-bottom: auto;
+}
+
+#gioi-thieu .chao {
+    color: #666;
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#gioi-thieu .duoianh {
+    margin-top: 1px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+#gioi-thieu img {
+    width: 600px;
+    border: 1px solid black;
+    display: block;
+    margin: 12px auto;
+
+}
+
+#gioi-thieu .thanhtoan {
+    padding-left: 8px;
+    color: #f00;
+    text-align: left;
+    font-size: 18px;
+}
+
+#gioi-thieu .dongone{
+    padding-left: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.blueone{
+    color: rgb(130, 121, 255);
+    font-size: 16px;
+    padding-left: 14px;
+}
+
+#gioi-thieu .dongtwo{
+    padding-left: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bluetwo{
+    color: rgb(130, 121, 255);
+    font-size: 16px;
+    padding-left: 14px;
+}
+
+#gioi-thieu .dongthree{
+    padding-left: auto;   /* Khoảng cách đệm bên trái  */
+    margin-top: 4px;     /* Khoảng cách từ phía trên  */
+    margin-bottom: 4px;  /* Khoảng cách từ phía dưới  */
+    padding-top: 3px;    /* Khoảng cách đệm phía trên */
+    padding-bottom: 3px; /* Khoảng cách đệm phía dưới*/
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bluethree{
+    color: rgb(130, 121, 255);
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+#gioi-thieu .dongfour{
+    font-size: 14px;
+    padding-left: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 1.25;
+}
+
+#gioi-thieu .mienphi{
+    padding-left: 8px;
+    color: #f00;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 6px;
+}
+#gioi-thieu .dongfive{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#gioi-thieu .dieukien{
+    padding-left: 8px;
+    color: #f00;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 6px;
+}
+#gioi-thieu .dongsix{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#gioi-thieu .luu-y{
+    color: #f00;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 1.25;
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    margin-top: 200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #noi-dung{
+      justify-content: auto;
+      align-items: auto;
+      height: auto;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      margin-top: 10px;
+      padding: 18px;
+      overflow: auto;
+  }
+  
+  #main h1{
+      color: #fea628;
+      text-align: center;
+      font-size: 24px;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+  }
+  
+  #main img{
+      border: 1px solid black;
+      display: block;
+      margin: 0 auto;
+      width: 800px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  #main p{
+      text-align: left;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-bottom: 12px;
+      margin-top: 12px;
+  }
+  #main .call-me{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease
+  }
+  #main .call-me:hover{
+    text-decoration: underline;
+    color: red;
+  }
+  
